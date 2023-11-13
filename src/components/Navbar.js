@@ -28,7 +28,7 @@ function Navbar() {
             Home
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>
           </Link>
-          <Link className="px-5 group ml-5 relative" to="#">
+          <Link className="px-5 group ml-5 relative" to="/tourpage">
             Tour
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>
           </Link>
