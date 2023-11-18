@@ -32,11 +32,11 @@ function Navbar() {
             Tour
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>
           </Link>
-          <Link className="px-5 group ml-5 relative" to="#">
+          <Link className="px-5 group ml-5 relative" to="/municipalinfo">
             Municipal
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>
           </Link>
-          <Link className="px-5 group ml-5 relative" to="#">
+          <Link className="px-5 group ml-5 relative" to="/historypage">
             History
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>
           </Link>
@@ -44,10 +44,10 @@ function Navbar() {
       </div>
       <div className="flex mr-20 items-center">
         <div className={`xl:flex ${isMenuOpen ? "" : "hidden"}`}>
-          <Link className="px-5 group mr-5 relative" to='/about'>
+          {/* <Link className="px-5 group mr-5 relative" to='/about'>
             About
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>
-          </Link>
+          </Link> */}
           <Link className="px-5 group mr-5 relative" to="/contactus">
             Contact Us
             <span className="absolute -bottom-5 left-0 right-0 h-1 bg-[#02bbbd] transform duration-300 scale-x-0 origin-left transition-transform ease-in-out group-hover:scale-x-100 mx-auto"></span>

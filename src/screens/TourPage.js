@@ -4,6 +4,7 @@ import tour1 from "../medias/Places Tour Page/MalusacHeader.png";
 import tour2 from "../medias/Places Tour Page/tour2.jpg";
 import tour3 from "../medias/Places Tour Page/SanPedroFirst.jpg";
 import tour4 from "../medias/Places Tour Page/SantaLuciaMain.jpg";
+import tour5 from "../medias/Places Tour Page/SanAntonioFirst.jpg";
 import { Link } from "react-router-dom";
 function TourPage() {
   return (
@@ -112,6 +113,24 @@ function TourPage() {
             <img src={tour4} class="place-2-img" />
           </Link>
         </div>
+        <div class="container-1 mb-10">
+          <Link to="/sanantonio">
+            <img src={tour5} class="place-2-img" />
+          </Link>
+          <div class="subcontainer-1">
+            <Link to="/sanantonio">
+              <div class="container-1-header">SAN ANTONIO</div>
+            </Link>
+            <div class="container-1-description">
+              San Antonio is home to a number of historical and cultural
+              attractions. The barangay is home to the San Antonio Parish
+              Church, a historic church built in the 18th century. The barangay
+              is also home to the San Antonio Cultural Center, which houses a
+              collection of artifacts and exhibits that tell the story of the
+              history and culture of San Antonio.
+            </div>
+          </div>
+        </div>
         <div class="container-3">
           <div class="container-3-header">Sasmuan Destinations</div>
           <div class="center">
@@ -129,7 +148,7 @@ function TourPage() {
                 <img src={tour4} alt="Image 4" />
               </div>
               <div class="grid-item">
-                <img src={tour1} alt="Image 5" />
+                <img src={tour5} alt="Image 5" />
               </div>
               <div class="grid-item">
                 <img src={tour1} alt="Image 6" />
