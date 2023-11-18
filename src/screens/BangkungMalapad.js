@@ -12,7 +12,7 @@ function BangkungMalapad() {
        <Hero_BangkungMalapad/>
 
         <div class="aboutBangkungMalapad">
-            <div class="container-1 ">
+            <div class="container-10 ">
                 <div class="row">
                     <div class="about-col-1">
                         <img src={BangkungMalapadImage} />
@@ -38,8 +38,8 @@ function BangkungMalapad() {
         </div>
 
 
-        <div class="gallerybm-2 ">
-            <div class="container-1">
+        <div class="gallerybm-2 mt-[-50px] ">
+            <div class="container-10">
                 <h1 class="gallerybm-header">GALLERY</h1>
                 <div class="gallerybm-activities">
                     <div class="activities">
@@ -69,9 +69,9 @@ function BangkungMalapad() {
         </div>
 
 
-        <div class="featured">
-            <div class="container-1">
-                <h1 class="gallerybm-header">FEATURED</h1>
+        <div class="featured mt-[-50px]">
+            <div class="container-10 ">
+                <h1 class="gallerybm-header mb-[50px]">FEATURED</h1>
                 <div class="row-featured">
                     <div class="about-col-1-featured">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.459918184391!2d120.61374057487279!3d14.799423772178413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339643633034fe11%3A0xfd117f160e0d1fd!2sSasmuan%20Bangkung%20Malapad%20Critical%20Habitat%20and%20Ecotourism%20Area%20(SBMCHEA)!5e0!3m2!1sen!2sph!4v1699686360277!5m2!1sen!2sph" 

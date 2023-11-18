@@ -9,7 +9,7 @@ module.exports = {
       backgroundImage: {
         'HeroImage': "url('../src/medias/HeroImage.jpg')",
         'HeroImageContact': "url('../src/medias/HeroImageContact.jpg')",
-        'HeroImageBangkungMalapad': "url('../src/medias/HeroImageBangkungMalapad.png')"
+        'HeroImageBangkungMalapad': "url('../src/medias/HeroImageTourPage.png')"
       },
       fontFamily: {
         'Inter': ['Inter', 'sans-serif']
