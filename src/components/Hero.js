@@ -11,7 +11,7 @@ function Hero() {
         <h1 className="text-4xl sm:text-6xl ml-5 sm:ml-0 font-bold mb-4 ">Sasmuan, Pampanga</h1>
         <p className="text-lg ml-5 sm:ml-0 mb-5">Where Every Moment is a Masterpiece</p>
         <Link
-          to="#contact"
+          to="/tourpage"
           className="bg-white uppercase text-black font-bold py-2 px-6 rounded-full ml-5 sm:ml-0 hover:bg-blue-300 transition duration-300"
         >
           Explore now!

@@ -50,7 +50,7 @@ function LandingPage() {
               </h3>
               <p class="text-gray-600">
                 Indulge in the flavors of Pampanga with Sasmuan's delectable
-                cuisine. From savory sisig to mouthwatering halo-halo, your
+                cuisine. From tamales to mouthwatering sweet delicacies, your
                 taste buds are in for a treat.
               </p>
             </div>
@@ -75,6 +75,13 @@ function LandingPage() {
             together!
           </p>
         </div>
+        <div class="mb-5 Inter text-center text-gray-800 uppercase text-shadow-md  font-extrabold text-4xl sm:text-7xl">
+          Featured Video
+        </div>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/auxF6A7WiAI" 
+                        title="Bangkung Malapad - Sasmuan, Pampanga | Exploring Pampanga" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
       </div>
       <Footer />
     </div>
